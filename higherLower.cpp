@@ -48,7 +48,7 @@ int main()
         int numberOfGuesses = 1;
         
         //std::cout << result << std::endl;
-        std::cout << "Let's play a number guessing game.";
+        std::cout << "Let's play a number guessing game." << std::endl;
         std::cout << "Enter a number between 1 and 100: ";
         int guess = getGuess();
         
